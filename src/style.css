@@ -26,6 +26,7 @@ div#app .preview {
     margin: 0 auto;
     width: 25em;
     height: 25em;
+    transition: all ease-in-out 0.4s;
 }
 
 div#app .preview>input {
@@ -54,4 +55,31 @@ div#app .preview>input#top-right {
 div#app .preview>input#bottom-right {
     left: 40%;
     top: 94.5%;
+}
+
+div#copy {
+    font-family: 'Rajdhani', sans-serif;
+    cursor: pointer;
+    color: #6c6c6c;
+    font-size: 2em;
+    border: 1px solid #6c6c6c;
+    width: 6em;
+    margin: 23px auto;
+    padding: 7px;
+    border-radius: 19px;
+    transition: background-color ease-out 0.3s;
+}
+
+div#copy:hover {
+    background-color: #2d2d2d;
+    transition: background-color ease-in 0.2s;
+}
+
+div#copy:active {
+    transform: scale(0.9);
+    transition: all ease-out 0.2s;
+}
+
+pre#dummy {
+    color: transparent;
 }
