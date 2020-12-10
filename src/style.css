@@ -2,3 +2,56 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    background: #3d3d3d;
+}
+
+div#app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div#app header {
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: 1.5em;
+    font-size: 4em;
+    color: #6c6c6c;
+}
+
+div#app .preview {
+    background-color: rgba(0, 0, 0, 0.32);
+    border: 1px solid #000;
+    margin: 0 auto;
+    width: 25em;
+    height: 25em;
+}
+
+div#app .preview>input {
+    color: #ddd;
+    background-color: #505050;
+    font-size: 15px;
+    font-weight: bold;
+    width: 45px;
+    position: relative;
+    text-align: center;
+}
+
+div#app .preview>input#top-left {
+    left: -40%;
+}
+
+div#app .preview>input#bottom-left {
+    left: -67%;
+    top: 94.5%;
+}
+
+div#app .preview>input#top-right {
+    left: 66%;
+}
+
+div#app .preview>input#bottom-right {
+    left: 40%;
+    top: 94.5%;
+}
